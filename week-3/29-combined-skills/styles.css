@@ -1,1 +1,40 @@
 /* Add your own CSS code below */
+.heart {
+    color: #c85308;
+}
+
+@media screen and (min-width:992px) {
+         .hero__title { 
+            font-size: 70px;}
+}
+
+.main-nav__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (min-width:767px) {
+    .site-header { 
+       display: flex;
+       justify-content: space-between;
+    }
+
+    .views {
+        display: flex;
+        align-items: center;
+    }
+
+    .views > * {
+        margin-right: 5px;
+    }
+}
+
+.site-content {
+    display: flex;
+    justify-content: center;
+}
+
+.main-article > p {
+    max-width: 50em;
+    line-height: 1.5;
+}
